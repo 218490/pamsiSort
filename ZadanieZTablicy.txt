@@ -1,0 +1,16 @@
+1. Stwórz klasę pozwalacjącą na przechowywanie dowolnej ilości elementów typu int w tablicy.
+2. Wykonaj pomiar czasów zapisu do obiektu z klasy z pkt 1 dla ilości elementów 
+n = 10e1, 10e3, 10e5, 10e6, 10e9. 
+
+
+IDE   ->  QT Creator
+
+
+DOM:
+
+Sprawozdanie:
+Dokonczyc w domu i wypisac czasy ktore uzyskalismy dla powiększania o 1 i dla powiększania x2.
+
+zaimplementowac inne sposoby zapisywania do struktury(inne niz o +jeden) tak żeby uzyskać lepszy czas.(powiększenie x2).
+
+przeczytać o złożoności obliczeniowej i o notacji O(n)  -> O od n.
