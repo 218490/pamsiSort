@@ -1,0 +1,33 @@
+1. Design by contract. -> obiecuję że moja klasa bdzie oferowała coś, a to co obiecuję znajduje się w moim interfejce, którego sie trzymam.
+
+tworzymy klase interfejsu -> IModem i implementujemy go(dziedziczymy) w kalsie Modem1 i Modem2, dzięki temu unikamy edycji klasy bazowej po dziedziczeniu, lub zmianach wymaganych.
+
+2. będziemy robili stosy, listy i kolejki
+
+3. Robimy interfejs do pkt. 2.
+
+4. Kawałek kodu który liczy czas.
+
+Nasz interfejs:	Istoper
+
+		-Start
+		-Stop
+		-GetElapsedTime
+		-DumpToFile
+a) typy
+
+
+Biegacz:				IRunnable		
+ -widzialny				 		
+-czy dobiegł				- bool run() 
+-ustawia dystans który nam mierzy	- bool prepare(int size)
+
+Sędzia:					
+na stowrzyć sobie stoper, przygototwać biegacza i wystartowac go.
+
+
+IRunnable => TablicaTestowa -> kolejka
+DOM:
+przeprojektowac kod tablicy dynmiczenj i stopera
+pomiar dla tablicy dynamicznej po 10 razy dla każdego pomiaru dla 10 miliona , tkajak było.
+przeczytać o abstakcyjnych typach danych (lista, stos, kolejki itp.)
