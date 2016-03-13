@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <fstream>
 #include <ctime>
 
 using namespace std;
@@ -34,7 +32,7 @@ public:
     delete [] this->tablica;
     return tab;
   }
-//pomniejszanie tablicy do zadanego wymiaru
+//pomniejszanie tablicy do zadanego wymiaru w przypadku zarezerwowania nadmiernej ilosci pamieci, lub do "suchego" uzycia
   int * SetSize(int n_wymiar){
     this->Rozmiar = n_wymiar;
     int * tab = new int[Rozmiar];
@@ -56,6 +54,7 @@ int main()
  Tablica Tab_1;
  Tablica Tab_2;
  Tablica Tab_3;
+ // domyslny zadeklarowany rozmiar, inicjacja nie jest wymagana gdy jest reczny wybor zmiennej
  int PowiekszXRazy=2;
 
 cout<<"Poczatkowy rozmiar tablicy tablicy:"<<Tab_1.Rozmiar<<endl;
