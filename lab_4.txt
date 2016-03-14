@@ -1,0 +1,45 @@
+Laboratoria 4      ------    ADT
+
+
+sedzia to main
+biegacz to tablica XD
+
+ADT- opisuje abstrakcje potrzebna  do zrealizowania pewnego typu danych.
+
+ADT określa nam metody które nasz interfejs może używać publicznie, a jakie tylko prywatnie
+
+Lista 	-> Add( ItemToAdd,  Index);	 [dodaje element]
+	-> Remove(Index);		 [usuwa element]
+	-> isEmpty();			 [czy pusty]
+	-> Get(Index);			 [pobiera element z listy - wartosc]
+	-> Size();			 [rozmiar listy]
+
+Design by contract.
+
+Exceptions:
+	- zdjąć z pustej listy(throw exception i user musi sprawdzic)
+	- usunąć nieistniejący element(throw exception i sprawdzic sprawdzic)
+	- wczytac zly typ danych ( przyjmujemy ajako argument np. tylko inty)
+	- przekroczenie rozmiaru tablicy
+	- dodanie elementu na zajety index
+
+Zrobić interfejs tej listy a później zaimplementować ten interfejs i napisać klasę która iplementuje klase irunnable i ten interfejs o którym mowa.
+
+Na zajęciach: Interfejs stosu, listy, kolejki.
+
+W domu -> udokumentować te struktury, tak, żeby można było to udokumentować w doxygenie i wygenerować dokumentację z tego w pdf'ie.
+i zbadać czas przeszukiwania listy, czyli przeszukać listę pod kontem jakiegoś poszukiwanego elementu i wypluć jego index - find(item) - zwraca index jesli jest i pod którym, jeśli nie ma to zwraca -1. 
+find dla losowego umieszczenia w liscie dla n = 10,100,1000,1000000,1000000000.
+implementacja listy, stosu, kolejki.
+
+
+
+
+IRunnable: - słuzy do tego żeby nasz main się nie zmieniał czyli żeby pętla którą zrobimy(inicjacji tablicy) wsystkei klasy które będziemy pisać które będą mierzone, czyli np dablica dynamiczna której mamy zmierzyc czas wypełenienia, przeszukiwanie listy, będzie implementować interfejs IRunnable który bedzie mierzył czas i wywoaływał np. czas wypełaniania, albo czas przeszukiwania.
+
+metoda run() która wywoła pętlę i zmierzy ile czasu zajmie wypełnienie, posortowanie..
+
+IRunnalbe ma wykonać zadanie którego czas beidze mierzony.
+
+
+
