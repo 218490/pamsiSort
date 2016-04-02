@@ -9,8 +9,12 @@ implementację klasy Tablica ???
 
 Sprawozdanie nie jest napisane językiem formalnym, technicznym, nie zawiera wykresów.
 
+Ocena: 2 (uwagi prowadzącego nie zostały uwzględnione)
+
 # Lab3 - projektowanie obiektowe
 
 Brak sprawozdania, bałagan uniemożliwiający weryfikację.
+
+Ocena: 2 (uwagi prowadzącego nie zostały uwzględnione)
 
 # Lab4 - ADT, lista / kolejka / stos
