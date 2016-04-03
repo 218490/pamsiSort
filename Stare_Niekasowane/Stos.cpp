@@ -109,7 +109,7 @@ istream &operator >> (istream &wejscie, Var& Var) {
 			}
 			catch (const std::exception& ex)
 			{
-				cerr << "Exception:" << "Nieobs³ugiwany typ danych" << ex.what();
+				cerr << "Exception:" << "NieobsÂ³ugiwany typ danych" << ex.what();
 
 			}
 
